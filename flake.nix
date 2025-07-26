@@ -21,6 +21,7 @@
 
           shellHook = ''
               yarn install
+              $EDITOR
           '';
         };
       });
