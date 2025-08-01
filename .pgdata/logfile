@@ -1,0 +1,35 @@
+2025-08-01 12:46:16.859 IDT [41696] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:46:16.859 IDT [41696] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:46:16.859 IDT [41696] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:46:16.860 IDT [41696] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:46:16.861 IDT [41696] LOG:  database system is shut down
+2025-08-01 12:48:42.053 IDT [42197] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:48:42.053 IDT [42197] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:48:42.053 IDT [42197] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:48:42.053 IDT [42197] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:48:42.055 IDT [42197] LOG:  database system is shut down
+2025-08-01 12:52:06.988 IDT [42672] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:52:06.988 IDT [42672] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:52:06.988 IDT [42672] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:52:06.989 IDT [42672] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:52:06.990 IDT [42672] LOG:  database system is shut down
+2025-08-01 12:52:50.609 IDT [42946] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:52:50.609 IDT [42946] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:52:50.609 IDT [42946] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:52:50.610 IDT [42946] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:52:50.611 IDT [42946] LOG:  database system is shut down
+2025-08-01 12:53:28.710 IDT [43246] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:53:28.710 IDT [43246] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:53:28.710 IDT [43246] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:53:28.711 IDT [43246] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:53:28.712 IDT [43246] LOG:  database system is shut down
+2025-08-01 12:55:54.180 IDT [43733] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:55:54.180 IDT [43733] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:55:54.180 IDT [43733] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:55:54.181 IDT [43733] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:55:54.182 IDT [43733] LOG:  database system is shut down
+2025-08-01 12:57:22.363 IDT [44107] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-08-01 12:57:22.364 IDT [44107] LOG:  listening on IPv6 address "::1", port 5432
+2025-08-01 12:57:22.364 IDT [44107] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-08-01 12:57:22.364 IDT [44107] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2025-08-01 12:57:22.366 IDT [44107] LOG:  database system is shut down

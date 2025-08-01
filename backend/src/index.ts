@@ -1,4 +1,10 @@
 import express from "express";
+import { Client } from 'pg';
+import { Database } from "./database";
+import dataframe from "../../dataframe.json";
+
+const master: Client = new Client();
+const database: Database = new Database(dataframe, master);
 
 const app = express();
 const PORT = 3000;

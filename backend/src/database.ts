@@ -1,9 +1,10 @@
 import { Client } from 'pg';
-import { dataframe } from '../../shared/src/index';
 
+export type dictionary<T> = {[column: string]: T};
+export type dataframe = dictionary<dictionary<string>>;
 export class Database {
-    private df: typeof dataframe;
-    constructor(df: typeof dataframe, master: typeof Client){
+    private df: dataframe
+    constructor(df: dataframe, master: Client){
         this.df = df;
         let columns: string;
         let query_input: string;
@@ -15,8 +16,4 @@ export class Database {
             master.query(query_input).catch(console.error);
         });
     }
-/*
-    async get_entries(client: typeof Client, query: query): promise<>{
-
-    }*/
 }

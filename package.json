@@ -9,13 +9,12 @@
   },
   "workspaces": [
     "frontend",
-    "backend",
-    "shared"
+    "backend"
   ],
   "devDependencies": {
     "concurrently": "^9.2.0"
   },
     "scripts": {
-    "dev": "concurrently \"yarn workspace backend run dev\" \"yarn workspace frontend run dev\""
+    "dev": "concurrently 'yarn workspace backend run dev' 'yarn workspace frontend run dev' 'pg_ctl -D \"$PGDATA\" -l logfile start'"
   }
 }
