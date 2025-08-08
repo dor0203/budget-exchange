@@ -15,7 +15,6 @@
 
           if [ ! -d "$PGDATA" ]; then
             initdb --pgdata=$PGDATA -c "unix_socket_directories=$PGDATA" > /dev/null
-            echo "unix_socket_directories = '/tmp'" >> $PGDATA/postgresql.conf
           fi
 
           alias psql="psql --host=$PGDATA"
